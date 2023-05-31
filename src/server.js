@@ -1,4 +1,5 @@
 import app from './app'
 
+const port = 3001
 
-app.listen(3001)
+app.listen(port, console.log(`server has started at ${port}`))

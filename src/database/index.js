@@ -2,7 +2,7 @@ import { Sequelize } from 'sequelize'
 import Category from '../app/models/Category'
 import Product from '../app/models/Product'
 import User from '../app/models/Users'
-import configDatabase from '../config/database'
+// import configDatabase from '../config/database'
 import mongoose from 'mongoose'
 
 const models = [User, Product, Category]
