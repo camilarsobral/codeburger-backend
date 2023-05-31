@@ -13,6 +13,10 @@ const upload = multer(multerConfig)
 
 const routes = new Router()
 
+routes.get('/', (request, response) => {
+    return response.json({ message: 'Welcome to the CodeBurger API' })
+})
+
 routes.post('/users', UserController.store)
 routes.post('/sessions', SessionController.store)
 
